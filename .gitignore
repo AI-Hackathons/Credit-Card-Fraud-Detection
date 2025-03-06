@@ -1,2 +1,50 @@
 /Fraud
 data/creditcard.csv
+
+# Ignore virtual environment
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore raw datasets (optional: remove if you want to track datasets in Git)
+data/raw/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore environment files
+.env
+.envrc
+*.secret
+
+# Ignore model checkpoints and output files
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Ignore IDE/editor settings (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore dependency lock files (optional)
+poetry.lock
+Pipfile.lock
+
+# Ignore API keys and security-sensitive files (ensure these are not committed)
+config.yaml
+credentials.json

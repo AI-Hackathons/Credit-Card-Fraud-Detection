@@ -1,0 +1,18 @@
+# Core dependencies
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+tensorflow # For drift detection components
+alibi-detect  # For concept drift detection
+
+# Data generation
+Faker
+
+# Additional utilities
+python-dateutil  # For datetime handling
+scipy          # For statistical operations
+joblib          # For model serialization
+matplotlib       # For visualization (optional)
+seaborn      # For visualization (optional)
+jupyter        # For notebook environment (optional)
