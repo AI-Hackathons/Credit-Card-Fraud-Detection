@@ -3,16 +3,30 @@ pandas
 numpy
 scikit-learn
 imbalanced-learn
-tensorflow # For drift detection components
+tensorflow
 alibi-detect  # For concept drift detection
 
 # Data generation
-Faker
+faker
 
 # Additional utilities
 python-dateutil  # For datetime handling
-scipy          # For statistical operations
-joblib          # For model serialization
+scipy            # For statistical operations
+joblib           # For model serialization
 matplotlib       # For visualization (optional)
-seaborn      # For visualization (optional)
-jupyter        # For notebook environment (optional)
+seaborn          # For visualization (optional)
+jupyter          # For notebook environment (optional)
+
+# API and deployment
+fastapi          # For real-time API
+uvicorn          # ASGI server for FastAPI
+boto3            # For AWS integration (optional, if using AWS)
+
+# Behavioral biometrics (optional)
+pyts             # For time-series analysis (optional)
+
+# Explainability (optional)
+shap             # For model interpretability (optional)
+
+# Testing (optional)
+pytest           # For unit testing (optional)
